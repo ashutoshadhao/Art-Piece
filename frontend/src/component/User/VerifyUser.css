@@ -1,0 +1,10 @@
+.verify-otp-main-me {
+  width: 1000px;
+  height: 500px;
+}
+.resend-it-me {
+  cursor: pointer;
+  width: 80px;
+  margin: 5px;
+  font-size: smaller;
+}

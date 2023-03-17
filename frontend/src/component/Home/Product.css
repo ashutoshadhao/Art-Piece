@@ -1,0 +1,107 @@
+.card {
+  margin-bottom: 20px !important;
+}
+
+.card_title {
+  text-decoration: none !important;
+  color: black;
+}
+.card_title:hover {
+  color: black;
+}
+.productCard-name-me {
+  width: 264px;
+  height: 37px;
+  overflow: auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #202020;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+}
+/* .btn-buy-product-card-me {
+  border: black;
+  color: white;
+  background: rgb(17, 159, 231);
+  background: linear-gradient(
+    63deg,
+    rgba(17, 159, 231, 1) 22%,
+    rgba(63, 255, 0, 1) 72%
+  );
+} */
+
+.btn-AddToCard-product-card-me {
+  background-image: linear-gradient(
+    to right,
+    #000046 0%,
+    #1cb5e0 51%,
+    #000046 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white !important;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.btn-AddToCard-product-card-me:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn-buy-product-card-me {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-buy-product-card-me:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .btn-buy-product-card-me{
+  background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-buy-product-card-me:hover {
+  background-position: right center; /* change the direction of the change here */
+/* color: #fff;
+  text-decoration: none;
+} */
+
+.card-product-card-me {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.img-card-image-me {
+  padding: 15px;
+  width: 301px;
+  height: 230px;
+  border-radius: 30px;
+  display: block;
+}

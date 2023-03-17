@@ -1,0 +1,43 @@
+.role-change-me {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.role-change-me > svg {
+  font-size: 7vmax;
+  color: tomato;
+}
+.role-change-me > p {
+  font-size: 2vmax;
+}
+.role-change-me > a {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1vmax "Roboto";
+  text-decoration: none;
+  margin: 2vmax;
+}
+
+@media screen and (max-width: 600px) {
+  .role-change-me > a {
+    padding: 3vw 6vw;
+    font: 400 4vw "Roboto";
+    margin: 2vmax;
+  }
+
+  .role-change-me > svg {
+    font-size: 20vw;
+  }
+  .role-change-me > p {
+    margin: 2vmax;
+    font-size: 5vw;
+  }
+}
